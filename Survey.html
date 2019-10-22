@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Mission Match</title>
+</head>
+<body>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<h2>Mission Match</h2>
+<p>Finding a mission trip can be hard, so we're here to make that process easier. Here is a quick survey that will find which mission trips fit your interests.</p>
+<form id="form1" onSubmit="return myFunction()">
+
+
+
+
+
+<div id="Part1" class = questions>
+
+    <p> Select Your Age Group</p>
+    <input type="radio"  id="Middle School" name="AgeGroup" onclick="check()" value="Middle School" required> Middle School<br>
+    <input type="radio"  id="High School" name="AgeGroup" onclick="check()" value="High School" required> High School<br>
+    <input type="radio"  id="College" name="AgeGroup" onclick="check()" value="College" required> College<br>
+    <!--  <input type="radio" onclick="check2(this.name)" id="Single Adults" name="AgeGroup" onclick="check()" value="Single Adults"> Single Adults<br> -->
+    <input type="radio"  id="Adults" name="AgeGroup" onclick="check()" value="Adults" required> Adult<br>
+    <input type="radio"  id="Family" name="AgeGroup" onclick="check()" value="Family" required> Family<br>
+
+
+    <p>Listed below are 8 attributes that you will rank based on what interests you most about a mission trip.</p>
+    <p>* with 1 being what you are most interested in and 8 being what you are least interested in.</p><br>
+
+
+    <p>1. Personal Evangelism</p>
+    <input type="radio" onclick="check2(this.name)" id="P1" name ="Personal_Evangelism" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="P2" name ="Personal_Evangelism" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="P3" name ="Personal_Evangelism" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="P4" name ="Personal_Evangelism" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="P5" name ="Personal_Evangelism" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="P6" name ="Personal_Evangelism" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="P7" name ="Personal_Evangelism" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="P8" name ="Personal_Evangelism" value=0  required> 8
+    <br>
+
+    <p>2. Medical</p>
+    <input type="radio" onclick="check2(this.name)" id="M1" name ="Medical" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="M2" name ="Medical" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="M3" name ="Medical" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="M4" name ="Medical" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="M5" name ="Medical" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="M6" name ="Medical" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="M7" name ="Medical" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="M8" name ="Medical" value=0 required> 8
+    <br>
+
+    <p>3. Construction</p>
+    <input type="radio" onclick="check2(this.name)" id="C1" name ="Construction" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="C2" name ="Construction" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="C3" name ="Construction" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="C4" name ="Construction" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="C5" name ="Construction" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="C6" name ="Construction" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="C7" name ="Construction" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="C8" name ="Construction" value=0 required> 8
+    <br>
+
+    <p>4. Kids Ministry</p>
+    <input type="radio" onclick="check2(this.name)" id="K1" name ="Kids_Ministry" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="K2" name ="Kids_Ministry" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="K3" name ="Kids_Ministry" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="K4" name ="Kids_Ministry" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="K5" name ="Kids_Ministry" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="K6" name ="Kids_Ministry" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="K7" name ="Kids_Ministry" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="K8" name ="Kids_Ministry" value=0 required> 8
+    <br>
+
+    <p>5. Senior Adults</p>
+    <input type="radio" onclick="check2(this.name)" id="S1" name ="Senior_adults" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="S2" name ="Senior_adults" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="S3" name ="Senior_adults" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="S4" name ="Senior_adults" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="S5" name ="Senior_adults" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="S6" name ="Senior_adults" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="S7" name ="Senior_adults" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="S8" name ="Senior_adults" value=0 required> 8
+    <br>
+
+    <p>6. Leading Worship</p>
+    <input type="radio" onclick="check2(this.name)" id="L1" name ="Leading_Worship" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="L2" name ="Leading_Worship" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="L3" name ="Leading_Worship" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="L4" name ="Leading_Worship" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="L5" name ="Leading_Worship" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="L6" name ="Leading_Worship" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="L7" name ="Leading_Worship" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="L8" name ="Leading_Worship" value=0 required> 8
+    <br>
+
+    <p>7. Church Leadership Training</p>
+    <input type="radio" onclick="check2(this.name)" id="Ch1" name ="Church_Leadership_Training" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="Ch2" name ="Church_Leadership_Training" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="Ch3" name ="Church_Leadership_Training" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="Ch4" name ="Church_Leadership_Training" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="Ch5" name ="Church_Leadership_Training" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="Ch6" name ="Church_Leadership_Training" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="Ch7" name ="Church_Leadership_Training" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="Ch8" name ="Church_Leadership_Training" value=0 required> 8
+    <br>
+
+    <p>8. Community Outreach</p>
+    <input type="radio" onclick="check2(this.name)" id="Co1" name ="Community_Outreach" value=100 required> 1
+    <input type="radio" onclick="check2(this.name)" id="Co2" name ="Community_Outreach" value=80 required> 2
+    <input type="radio" onclick="check2(this.name)" id="Co3" name ="Community_Outreach" value=70 required> 3
+    <input type="radio" onclick="check2(this.name)" id="Co4" name ="Community_Outreach" value=50 required> 4
+    <input type="radio" onclick="check2(this.name)" id="Co5" name ="Community_Outreach" value=30 required> 5
+    <input type="radio" onclick="check2(this.name)" id="Co6" name ="Community_Outreach" value=20 required> 6
+    <input type="radio" onclick="check2(this.name)" id="Co7" name ="Community_Outreach" value=10 required> 7
+    <input type="radio" onclick="check2(this.name)" id="Co8" name ="Community_Outreach" value=0 required> 8
+    <br>
+<!--    1. <select id = "Att1">-->
+<!--        <option value="0">Select</option>-->
+<!--        <option value="Personal_Evangelism,100">Personal Evangelism</option>-->
+<!--         <option value="Medical,100">Medical</option>-->
+<!--        <option value="Construction,100">Construction</option>-->
+<!--        <option value="Kids_Ministry,100">Kids Ministry</option>-->
+<!--        <option value="Senior_adults,100">Senior Adults</option>-->
+<!--        <option value="Leading_Worship,100">Leading Worship</option>-->
+<!--        <option value="Church_Leadership_Training,100">Church Leadership Training</option>-->
+<!--        <option value="Community_Outreach,100">Community Outreach</option>-->
+<!--    </select>-->
+<!--    <br>-->
+<!--    2. <select id = "Att2">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,80">Personal Evangelism</option>-->
+<!--    <option value="Medical,80">Medical</option>-->
+<!--    <option value="Construction,80">Construction</option>-->
+<!--    <option value="Kids_Ministry,80">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,80">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,80">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,80">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,80">Community Outreach</option>-->
+<!--</select>-->
+<!--    <br>-->
+<!--    3. <select id = "Att3">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,70">Personal Evangelism</option>-->
+<!--    <option value="Medical,70">Medical</option>-->
+<!--    <option value="Construction,70">Construction</option>-->
+<!--    <option value="Kids_Ministry,70">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,70">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,70">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,70">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,70">Community Outreach</option>-->
+<!--</select>-->
+<!--    <br>-->
+<!--    4. <select id = "Att4">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,50">Personal Evangelism</option>-->
+<!--    <option value="Medical,50">Medical</option>-->
+<!--    <option value="Construction,50">Construction</option>-->
+<!--    <option value="Kids_Ministry,50">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,50">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,50">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,50">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,50">Community Outreach</option>-->
+<!--</select>-->
+<!--    <br>-->
+<!--    5. <select id = "Att5">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,30">Personal Evangelism</option>-->
+<!--    <option value="Medical,30">Medical</option>-->
+<!--    <option value="Construction,30">Construction</option>-->
+<!--    <option value="Kids_Ministry,30">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,30">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,30">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,30">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,30">Community Outreach</option>-->
+<!--</select>-->
+<!--    <br>-->
+<!--    6. <select id = "Att6">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,20">Personal Evangelism</option>-->
+<!--    <option value="Medical,20">Medical</option>-->
+<!--    <option value="Construction,20">Construction</option>-->
+<!--    <option value="Kids_Ministry,20">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,20">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,20">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,20">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,20">Community Outreach</option>-->
+<!--</select>-->
+<!--    <br>-->
+<!--    7. <select id = "Att7">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,10">Personal Evangelism</option>-->
+<!--    <option value="Medical,10">Medical</option>-->
+<!--    <option value="Construction,10">Construction</option>-->
+<!--    <option value="Kids_Ministry,10">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,10">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,10">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,10">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,10">Community Outreach</option>-->
+<!--</select>-->
+<!--    <br>-->
+<!--    8. <select id = "Att8">-->
+<!--    <option value="0">Select</option>-->
+<!--    <option value="Personal_Evangelism,0">Personal Evangelism</option>-->
+<!--    <option value="Medical,0">Medical</option>-->
+<!--    <option value="Construction,0">Construction</option>-->
+<!--    <option value="Kids_Ministry,0">Kids Ministry</option>-->
+<!--    <option value="Senior_adults,0">Senior Adults</option>-->
+<!--    <option value="Leading_Worship,0">Leading Worship</option>-->
+<!--    <option value="Church_Leadership_Training,0">Church Leadership Training</option>-->
+<!--    <option value="Community_Outreach,0">Community Outreach</option>-->
+<!--</select>-->
+    <br>
+
+
+   <p id="test"></p>
+    <input type="submit"  id="answers" value="Get your results!">
+</div>
+
+
+</form>
+
+
+
+
+<br>
+
+</body>
+</html>
