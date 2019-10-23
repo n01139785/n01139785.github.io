@@ -152,7 +152,7 @@ dupeCheck();
     //location.assign("Results.html");
 
         document.getElementById("Part1").innerHTML = `<h2>Here Are Your Mission Matches!</h2>
-<textarea id="Result1"><</textarea> <br> <textarea id="Result2"><</textarea> <br> <textarea id="Result3"><</textarea><br>
+<textarea id="Result1" readonly><</textarea> <br> <textarea id="Result2" readonly><</textarea> <br> <textarea id="Result3" readonly><</textarea><br>
 <p>Go check out the booths located under the welcome pavilion or the link below for more information.</p>
 <br> <a  href="https://app.managedmissions.com/OurTrips/4780" target="_blank">
 Current Trips
