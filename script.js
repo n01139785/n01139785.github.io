@@ -31,6 +31,7 @@ class Mission {
     var Guatemala_1 = new Mission("Guatemala", 90, 90, 90, 0, 0, 0, 0, 90, "Adults");
     var Guatemala_2 = new Mission("Guatemala", 90, 0, 90, 90, 0, 0, 0, 90, "Family");
     var Guatemala_3 = new Mission("Guatemala", 90, 0, 90, 90, 0, 0, 0, 90, "College");
+    var Guatemala_4 = new Mission("Guatemala", 90, 0, 90, 90, 0, 0, 0, 90, "High School ");
 
     var Kuala_Lumpur = new Mission("Kuala Lumpur", 100, 10, 0, 70, 20, 50, 30, 80, "Adults");
 
@@ -38,18 +39,20 @@ class Mission {
 
     var Puerto_Rico_1 = new Mission("Puerto Rico", 106, 0, 0, 86, 0, 36, 56, 76, "Family");
     var Puerto_Rico_2 = new Mission("Puerto Rico", 50, 0, 70, 100, 10, 30, 80, 20, "College");
-    var Puerto_Rico_2_2 = new Mission("Puerto Rico", 50, 0, 70, 100, 10, 30, 80, 20, "Single Adults");
+    var Puerto_Rico_2_2 = new Mission("Puerto Rico", 50, 0, 70, 100, 10, 30, 80, 20, "Adults");
 
     var London = new Mission("London", 130, 0, 0, 0, 0, 0, 110, 120, "College");
+    var London_1 = new Mission("London", 130, 0, 0, 0, 0, 0, 110, 120, "High School");
 
     var Cuba = new Mission("Cuba", 10, 20, 100, 70, 50, 30, 80, 0, "Adults");
 
-    var Harvest_City = new Mission("NYC/Jersey City", 70, 0, 10, 50, 30, 20, 100, 80, "Family");
+    var Harvest_City = new Mission("NYC/Jersey City", 70, 0, 10, 50, 30, 20, 100, 80, "High School");
+    var Harvest_City_1 = new Mission("NYC/Jersey City", 70, 0, 10, 50, 30, 20, 100, 80, "Family");
 
     var Romania_1 = new Mission("Romania", 80, 10, 0, 100, 20, 70, 30, 50, "College");
     var Romania_1_2 = new Mission("Romania", 80, 10, 0, 100, 20, 70, 30, 50, "Family");
-    var Romania_1_3 = new Mission("Romania", 80, 10, 0, 100, 20, 70, 30, 50, "Single Adults");
-    var Romania_1_4 = new Mission("Romania", 80, 10, 0, 100, 20, 70, 30, 50, "Adults");
+    var Romania_1_3 = new Mission("Romania", 80, 10, 0, 100, 20, 70, 30, 50, "Adults");
+    var Romania_1_4 = new Mission("Romania", 80, 10, 0, 100, 20, 70, 30, 50, "High School");
 
 
 
@@ -66,14 +69,17 @@ class Mission {
         Guatemala_1,
         Guatemala_2,
         Guatemala_3,
+        Guatemala_4,
         Kuala_Lumpur,
         Miami,
         Puerto_Rico_1,
         Puerto_Rico_2,
         Puerto_Rico_2_2,
         London,
+        London_1,
         Cuba,
         Harvest_City,
+        Harvest_City_1,
         Romania_1,
         Romania_1_2,
         Romania_1_3,
