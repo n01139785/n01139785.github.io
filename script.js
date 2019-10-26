@@ -156,7 +156,7 @@ dupeCheck();
 <p>Go check out the booths located under the welcome pavilion or the link below for more information.</p>
 <br> <a  href="https://app.managedmissions.com/OurTrips/4780" target="_blank">
 Current Trips
-</a> <br> <img src="MMpics/MM_gaut2.jpg" alt="Logo" style="width:120px;height:120px;border:0;"><img src="MMpics/MM_haiti4.jpg" alt="Logo" style="width:120px;height:120px;border:0;"><img src="MMpics/MM_london.jpg" alt="Logo" style="width:120px;height:120px;border:0;">`
+</a> <br> <img src="MMpics/MM_gaut2.jpg" alt="Logo" style="width:100px;height:100px;border:0;"><img src="MMpics/MM_haiti4.jpg" alt="Logo" style="width:100px;height:100px;border:0;"><img src="MMpics/MM_london.jpg" alt="Logo" style="width:100px;height:100px;border:0;">`
 
     result();
 

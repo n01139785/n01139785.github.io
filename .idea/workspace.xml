@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="158" column="267" selection-start-line="158" selection-start-column="267" selection-end-line="158" selection-end-column="267" />
+            <state relative-caret-position="821">
+              <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#img#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#2;n#!!top" expanded="true" />
@@ -136,12 +136,12 @@
       <option name="presentableId" value="Default" />
       <updated>1571783067339</updated>
       <workItem from="1571783074590" duration="14832000" />
-      <workItem from="1572052613091" duration="3920000" />
+      <workItem from="1572052613091" duration="4308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18752000" />
+    <option name="totallyTimeSpent" value="19140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1432" height="1087" extended-state="0" />
@@ -232,8 +232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="158" column="267" selection-start-line="158" selection-start-column="267" selection-end-line="158" selection-end-column="267" />
+        <state relative-caret-position="821">
+          <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#img#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#2;n#!!top" expanded="true" />
